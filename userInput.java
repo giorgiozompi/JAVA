@@ -21,17 +21,17 @@ public static User createUser(){
     
     System.out.println("nome: ");
    // setfirstname(myObj.nextLine());
-    User.firstname=myObj.nextLine();
+    String firstname=myObj.nextLine();
     System.out.println("cognome: ");
     //setlastname(myObj.nextLine());
-    User.lastname=myObj.nextLine();
+    String lastname=myObj.nextLine();
     System.out.println("email: ");
    // setEmail(myObj.nextLine());
-    User.email=myObj.nextLine();
+    String email=myObj.nextLine();
     System.out.println("età: ");
-    User.eta=myObj.nextInt();
+    int eta=myObj.nextInt();
    // setEta(myObj.nextInt());
-    User utente=new userInput(User.firstname, User.lastname, User.email, User.eta);
+    User utente=new userInput(firstname, lastname, email, eta);
     return utente;
 }
 }

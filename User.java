@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public  abstract class User  {
-    public static String firstname;
-    public static String lastname;
-    public static String email;
-    public static int eta;
+    public  String firstname;
+    public  String lastname;
+    public  String email;
+    public  int eta;
     public ArrayList <User> utenti=new ArrayList<>();
 
     public ArrayList<User> getUtenti() {
